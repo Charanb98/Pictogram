@@ -36,7 +36,7 @@ export default class ImagesInfo extends React.Component {
     var url =
       "https://maps.googleapis.com/maps/api/geocode/json?address=" +
       address +
-      "&key=AIzaSyBW6G0Ezw0bl0EMcfJ2WSCkseyeh8x4WvE";
+      "&key=";
     return fetch(url)
       .then(res => res.json())
       .then(res => {
